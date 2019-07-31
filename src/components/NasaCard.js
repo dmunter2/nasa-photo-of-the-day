@@ -1,10 +1,12 @@
-import react from 'react';
+// import react from 'react';
+import React, { useEffect, useState } from "react";
 
-export default function NasaCard({ value }) {
+
+export default function NasaCard({ imgUrl }) {
 
     return (
-        <div>
-            <img src={value} />
+        <div style={{ maxWidth: "200px" }}>
+            <img className='apiImg' src={imgUrl} />
         </div>
     );
 }
