@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 
-export default function NasaCard({ imgUrl }) {
+export default function NasaCard({imgUrl}) {
 
     return (
         <div style={{ maxWidth: "200px" }}>
